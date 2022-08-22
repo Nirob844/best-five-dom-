@@ -1,0 +1,11 @@
+.header-bg {
+    background-image: url(images/first-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+.title-h2 {
+    color: rgb(209, 81, 81);
+}
