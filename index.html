@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Paris Saint-Germain</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -13,49 +13,50 @@
 <body>
     <header class="container-fluid header-bg">
         <div class="title">
-            <h1 class="text-white text-center fw-bolder pt-4 animate-charcter">Paris Saint-Germain F.C</h1>
-            <h2 class="text-center title-h2 mt-5">Make your own team</h2>
+            <h1 class="text-white text-center fw-bolder pt-4">Paris Saint-Germain F.C</h1>
+            <h2 class="text-center title-h2 mt-5">Make Your Own Team</h2>
+            <h2 class="text-center title-h2">Select Your Best Five Player</h2>
         </div>
     </header>
     <main>
-        <section class="container mb-2">
+        <section class="container my-5">
             <div class="row">
                 <div class="col-8">
                     <div class="card-group">
                         <!-- Player 01  -->
                         <div class="card m-1 shadow-lg">
-                            <img src="images/Lionel Messi.jpg" class="card-img-top" alt="...">
+                            <img src="images/Lionel Messi.jpg" class="card-img-top img-fluid h-50" alt="...">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Lionel Messi</h5>
-                                <p>GOALKEEPER</p>
-                                <span class="me-2">Goal: 0</span>
+                                <p>FORWARD</p>
+                                <span class="me-2">Goal: 100</span>
                                 <span>Assist: 120</span>
-                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-success mt-3"
+                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-primary mt-3"
                                     id="playerSelect-btn">Select</button>
                             </div>
                         </div>
                         <!-- Player 02  -->
                         <div class="card m-1 shadow-lg">
-                            <img src="images/Neymar.jpg" class="card-img-top" alt="...">
+                            <img src="images/Neymar.jpg" class="card-img-top img-fluid h-50" alt="...">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Neymar.Jr</h5>
-                                <p>DEFENDER</p>
-                                <span class="me-2">Goal: 0</span>
-                                <span>Assist: 120</span>
-                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-success mt-3"
+                                <p>FORWARD</p>
+                                <span class="me-2">Goal: 80</span>
+                                <span>Assist: 100</span>
+                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-primary mt-3"
                                     id="playerSelect-btn">Select</button>
 
                             </div>
                         </div>
                         <!-- Player 03  -->
                         <div class="card m-1 shadow-lg">
-                            <img src="images/Kylian Mbappé.jpg" class="card-img-top" alt="...">
+                            <img src="images/Kylian Mbappé.jpg" class="card-img-top img-fluid h-50" alt="...">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Kylian Mbappé</h5>
                                 <p>MIDFIELDER</p>
-                                <span class="me-2">Goal: 0</span>
-                                <span>Assist: 120</span>
-                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-success mt-3"
+                                <span class="me-2">Goal: 60</span>
+                                <span>Assist: 20</span>
+                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-primary mt-3"
                                     id="playerSelect-btn">Select</button>
 
                             </div>
@@ -64,37 +65,37 @@
                     <div class="card-group">
                         <!-- Player 04  -->
                         <div class="card m-1 shadow-lg">
-                            <img src="images/Sergio Ramos.jpg" class="card-img-top" alt="...">
+                            <img src="images/Sergio Ramos.jpg" class="card-img-top img-fluid h-50" alt="...">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Sergio Ramos</h5>
-                                <p>FORWARD</p>
-                                <span class="me-2">Goal: 0</span>
-                                <span>Assist: 120</span>
-                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-success mt-3"
+                                <p>DEFENDER</p>
+                                <span class="me-2">Goal: 00</span>
+                                <span>Assist: 50</span>
+                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-primary mt-3"
                                     id="playerSelect-btn">Select</button>
                             </div>
                         </div>
                         <!-- Player 05  -->
                         <div class="card m-1 shadow-lg">
-                            <img src="images/Vitinha.jpg" class="card-img-top" alt="...">
+                            <img src="images/Vitinha.jpg" class="card-img-top img-fluid h-50" alt="...">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Vitinha</h5>
-                                <p>FORWARD</p>
-                                <span class="me-2">Goal: 0</span>
-                                <span>Assist: 120</span>
-                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-success mt-3"
+                                <p>MIDFIELDER</p>
+                                <span class="me-2">Goal: 30</span>
+                                <span>Assist: 20</span>
+                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-primary mt-3"
                                     id="playerSelect-btn">Select</button>
                             </div>
                         </div>
                         <!-- Player 06  -->
                         <div class="card m-1 shadow-lg">
-                            <img src="images/Keylor Navas.jpg" class="card-img-top" alt="...">
+                            <img src="images/Keylor Navas.jpg" class="card-img-top img-fluid h-50" alt="...">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Keylor Navas</h5>
+                                <h5 class="card-title">Keylor Navas`</h5>
                                 <p>GOALKEEPER</p>
-                                <span class="me-2">Goal: 0</span>
-                                <span>Assist: 120</span>
-                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-success mt-3"
+                                <span class="me-2">Goal: 00</span>
+                                <span>Assist: 00</span>
+                                <button onclick="selectPlayers(this)" type="button" class="btn btn-outline-primary mt-3"
                                     id="playerSelect-btn">Select</button>
 
                             </div>
@@ -103,7 +104,7 @@
                 </div>
                 <div class="col-4">
                     <h2 class="text-center mb-2">Selected Player</h2>
-                    <table class="table table-success table-striped">
+                    <table class="table table-primary table-striped">
                         <thead>
                             <tr>
                                 <th scope="col">0</th>
@@ -122,9 +123,9 @@
                         </div>
                         <hr>
                         <button id="calculate" type="button"
-                            class="btn btn-outline-success my-3 d-block m-auto">Calculate</button>
+                            class="btn btn-outline-primary my-3 d-block m-auto">Calculate</button>
                         <hr>
-                        <h5 class="p-2 text-center text-white bg-success">Player Expenses $<span
+                        <h5 class="p-2 text-center text-white bg-primary">Player Expenses $<span
                                 id="playerExpenses">00</span> </h3>
 
                             <div class="form-floating mb-3">
@@ -136,8 +137,8 @@
                                 <label for="floatingInput">Coach</label>
                             </div>
                             <button id="cal-total" type="button"
-                                class="btn btn-outline-success my-3 d-block m-auto">Calculate</button>
-                            <h5 class="p-2 text-center text-white bg-success">Total $<span id="totalExpenses">00</span>
+                                class="btn btn-outline-primary my-3 d-block m-auto">Calculate</button>
+                            <h5 class="p-2 text-center text-white bg-primary">Total $<span id="totalExpenses">00</span>
                             </h5>
                     </div>
                 </div>
@@ -148,6 +149,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

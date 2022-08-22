@@ -1,8 +1,9 @@
 .header-bg {
-    background-image: url(images/first-banner.png);
+    background-image: url(images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 100%;
     margin-bottom: 20px;
 }
 
